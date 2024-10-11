@@ -91,6 +91,18 @@ To integrate DGL into your DAO's governance and treasury management process:
    - DAO members can propose large token orders and vote using their wrapped tokens.
    - Once a proposal is approved, the TWAMM hook will execute the order over time, ensuring minimal market disruption.
 
+## Test
+---
+
+*requires [foundry](https://book.getfoundry.sh)*
+
+```
+forge install
+forge test
+```
+
+---
+
 ## Contribution
 
 We welcome contributions from the community to improve DGL's functionality. Whether it's proposing new features, improving efficiency, or enhancing governance integrations, we encourage you to open issues or submit pull requests.
